@@ -14,6 +14,16 @@
 		ADA7A5F52C72398D000AB1C5 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA7A5F42C72398D000AB1C5 /* ______Tests.swift */; };
 		ADA7A5FF2C72398D000AB1C5 /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA7A5FE2C72398D000AB1C5 /* ______UITests.swift */; };
 		ADA7A6012C72398D000AB1C5 /* ______UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA7A6002C72398D000AB1C5 /* ______UITestsLaunchTests.swift */; };
+		ADCC00A82C732EE00026C76F /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC00A72C732EE00026C76F /* WeatherManager.swift */; };
+		ADCC00B02C749B8C0026C76F /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCC00AF2C749B8C0026C76F /* WidgetKit.framework */; };
+		ADCC00B22C749B8C0026C76F /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCC00B12C749B8C0026C76F /* SwiftUI.framework */; };
+		ADCC00B52C749B8C0026C76F /* WeatherWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC00B42C749B8C0026C76F /* WeatherWidgetLiveActivity.swift */; };
+		ADCC00B72C749B8C0026C76F /* WeatherWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC00B62C749B8C0026C76F /* WeatherWidgetBundle.swift */; };
+		ADCC00B92C749B8C0026C76F /* WeatherWidgetControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC00B82C749B8C0026C76F /* WeatherWidgetControl.swift */; };
+		ADCC00BB2C749B8C0026C76F /* WeatherWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC00BA2C749B8C0026C76F /* WeatherWidget.swift */; };
+		ADCC00BD2C749B8C0026C76F /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC00BC2C749B8C0026C76F /* AppIntent.swift */; };
+		ADCC00BF2C749B8E0026C76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCC00BE2C749B8E0026C76F /* Assets.xcassets */; };
+		ADCC00C32C749B8E0026C76F /* WeatherWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = ADCC00AD2C749B8C0026C76F /* WeatherWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +41,28 @@
 			remoteGlobalIDString = ADA7A5DF2C72398B000AB1C5;
 			remoteInfo = "明天天气如何";
 		};
+		ADCC00C12C749B8E0026C76F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA7A5D82C72398B000AB1C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADCC00AC2C749B8C0026C76F;
+			remoteInfo = WeatherWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ADCC00C42C749B8E0026C76F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ADCC00C32C749B8E0026C76F /* WeatherWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		ADA7A5E02C72398C000AB1C5 /* 明天天气如何.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "明天天气如何.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +75,19 @@
 		ADA7A5FA2C72398D000AB1C5 /* 明天天气如何UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "明天天气如何UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA7A5FE2C72398D000AB1C5 /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
 		ADA7A6002C72398D000AB1C5 /* ______UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		ADA7A60D2C724708000AB1C5 /* 明天天气如何.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "明天天气如何.entitlements"; sourceTree = "<group>"; };
+		ADCC00A72C732EE00026C76F /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		ADCC00AD2C749B8C0026C76F /* WeatherWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WeatherWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCC00AF2C749B8C0026C76F /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		ADCC00B12C749B8C0026C76F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		ADCC00B42C749B8C0026C76F /* WeatherWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		ADCC00B62C749B8C0026C76F /* WeatherWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidgetBundle.swift; sourceTree = "<group>"; };
+		ADCC00B82C749B8C0026C76F /* WeatherWidgetControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidgetControl.swift; sourceTree = "<group>"; };
+		ADCC00BA2C749B8C0026C76F /* WeatherWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidget.swift; sourceTree = "<group>"; };
+		ADCC00BC2C749B8C0026C76F /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		ADCC00BE2C749B8E0026C76F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADCC00C02C749B8E0026C76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADCC00CB2C749DF40026C76F /* -------Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-------Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +112,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADCC00AA2C749B8C0026C76F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCC00B22C749B8C0026C76F /* SwiftUI.framework in Frameworks */,
+				ADCC00B02C749B8C0026C76F /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +130,8 @@
 				ADA7A5E22C72398C000AB1C5 /* 明天天气如何 */,
 				ADA7A5F32C72398D000AB1C5 /* 明天天气如何Tests */,
 				ADA7A5FD2C72398D000AB1C5 /* 明天天气如何UITests */,
+				ADCC00B32C749B8C0026C76F /* WeatherWidget */,
+				ADCC00AE2C749B8C0026C76F /* Frameworks */,
 				ADA7A5E12C72398C000AB1C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +142,7 @@
 				ADA7A5E02C72398C000AB1C5 /* 明天天气如何.app */,
 				ADA7A5F02C72398D000AB1C5 /* 明天天气如何Tests.xctest */,
 				ADA7A5FA2C72398D000AB1C5 /* 明天天气如何UITests.xctest */,
+				ADCC00AD2C749B8C0026C76F /* WeatherWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +150,11 @@
 		ADA7A5E22C72398C000AB1C5 /* 明天天气如何 */ = {
 			isa = PBXGroup;
 			children = (
+				ADCC00CB2C749DF40026C76F /* -------Info.plist */,
+				ADA7A60D2C724708000AB1C5 /* 明天天气如何.entitlements */,
 				ADA7A5E32C72398C000AB1C5 /* ______App.swift */,
 				ADA7A5E52C72398C000AB1C5 /* ContentView.swift */,
+				ADCC00A72C732EE00026C76F /* WeatherManager.swift */,
 				ADA7A5E72C72398D000AB1C5 /* Assets.xcassets */,
 				ADA7A5E92C72398D000AB1C5 /* Preview Content */,
 			);
@@ -127,6 +186,29 @@
 			path = "明天天气如何UITests";
 			sourceTree = "<group>";
 		};
+		ADCC00AE2C749B8C0026C76F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADCC00AF2C749B8C0026C76F /* WidgetKit.framework */,
+				ADCC00B12C749B8C0026C76F /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADCC00B32C749B8C0026C76F /* WeatherWidget */ = {
+			isa = PBXGroup;
+			children = (
+				ADCC00B42C749B8C0026C76F /* WeatherWidgetLiveActivity.swift */,
+				ADCC00B62C749B8C0026C76F /* WeatherWidgetBundle.swift */,
+				ADCC00B82C749B8C0026C76F /* WeatherWidgetControl.swift */,
+				ADCC00BA2C749B8C0026C76F /* WeatherWidget.swift */,
+				ADCC00BC2C749B8C0026C76F /* AppIntent.swift */,
+				ADCC00BE2C749B8E0026C76F /* Assets.xcassets */,
+				ADCC00C02C749B8E0026C76F /* Info.plist */,
+			);
+			path = WeatherWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +219,12 @@
 				ADA7A5DC2C72398B000AB1C5 /* Sources */,
 				ADA7A5DD2C72398B000AB1C5 /* Frameworks */,
 				ADA7A5DE2C72398B000AB1C5 /* Resources */,
+				ADCC00C42C749B8E0026C76F /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ADCC00C22C749B8E0026C76F /* PBXTargetDependency */,
 			);
 			name = "明天天气如何";
 			productName = "明天天气如何";
@@ -183,6 +267,23 @@
 			productReference = ADA7A5FA2C72398D000AB1C5 /* 明天天气如何UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		ADCC00AC2C749B8C0026C76F /* WeatherWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCC00C72C749B8E0026C76F /* Build configuration list for PBXNativeTarget "WeatherWidgetExtension" */;
+			buildPhases = (
+				ADCC00A92C749B8C0026C76F /* Sources */,
+				ADCC00AA2C749B8C0026C76F /* Frameworks */,
+				ADCC00AB2C749B8C0026C76F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeatherWidgetExtension;
+			productName = WeatherWidgetExtension;
+			productReference = ADCC00AD2C749B8C0026C76F /* WeatherWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +305,9 @@
 						CreatedOnToolsVersion = 16.0;
 						TestTargetID = ADA7A5DF2C72398B000AB1C5;
 					};
+					ADCC00AC2C749B8C0026C76F = {
+						CreatedOnToolsVersion = 16.0;
+					};
 				};
 			};
 			buildConfigurationList = ADA7A5DB2C72398B000AB1C5 /* Build configuration list for PBXProject "明天天气如何" */;
@@ -222,6 +326,7 @@
 				ADA7A5DF2C72398B000AB1C5 /* 明天天气如何 */,
 				ADA7A5EF2C72398D000AB1C5 /* 明天天气如何Tests */,
 				ADA7A5F92C72398D000AB1C5 /* 明天天气如何UITests */,
+				ADCC00AC2C749B8C0026C76F /* WeatherWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +355,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADCC00AB2C749B8C0026C76F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCC00BF2C749B8E0026C76F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADCC00A82C732EE00026C76F /* WeatherManager.swift in Sources */,
 				ADA7A5E62C72398C000AB1C5 /* ContentView.swift in Sources */,
 				ADA7A5E42C72398C000AB1C5 /* ______App.swift in Sources */,
 			);
@@ -279,6 +393,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADCC00A92C749B8C0026C76F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCC00B72C749B8C0026C76F /* WeatherWidgetBundle.swift in Sources */,
+				ADCC00B52C749B8C0026C76F /* WeatherWidgetLiveActivity.swift in Sources */,
+				ADCC00BD2C749B8C0026C76F /* AppIntent.swift in Sources */,
+				ADCC00BB2C749B8C0026C76F /* WeatherWidget.swift in Sources */,
+				ADCC00B92C749B8C0026C76F /* WeatherWidgetControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +417,11 @@
 			isa = PBXTargetDependency;
 			target = ADA7A5DF2C72398B000AB1C5 /* 明天天气如何 */;
 			targetProxy = ADA7A5FB2C72398D000AB1C5 /* PBXContainerItemProxy */;
+		};
+		ADCC00C22C749B8E0026C76F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADCC00AC2C749B8C0026C76F /* WeatherWidgetExtension */;
+			targetProxy = ADCC00C12C749B8E0026C76F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -419,17 +550,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "明天天气如何/明天天气如何.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"明天天气如何/Preview Content\"";
 				DEVELOPMENT_TEAM = LK29KBB65D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-------Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App 需要访问您的位置来显示天气信息。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,17 +583,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "明天天气如何/明天天气如何.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"明天天气如何/Preview Content\"";
 				DEVELOPMENT_TEAM = LK29KBB65D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-------Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App 需要访问您的位置来显示天气信息。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -544,6 +683,60 @@
 			};
 			name = Release;
 		};
+		ADCC00C52C749B8E0026C76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LK29KBB65D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeatherWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WeatherWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ccd.------.WeatherWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADCC00C62C749B8E0026C76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LK29KBB65D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeatherWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WeatherWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ccd.------.WeatherWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,6 +772,15 @@
 			buildConfigurations = (
 				ADA7A60B2C72398D000AB1C5 /* Debug */,
 				ADA7A60C2C72398D000AB1C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCC00C72C749B8E0026C76F /* Build configuration list for PBXNativeTarget "WeatherWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCC00C52C749B8E0026C76F /* Debug */,
+				ADCC00C62C749B8E0026C76F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import WeatherKit
+import CoreLocation
 
 @main
 struct ______App: App {
